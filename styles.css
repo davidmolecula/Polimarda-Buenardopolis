@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.principal {
+    display: flex;
+    position: relative;
+    padding: 50px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background:linear-gradient(45deg,black,white);
+    color: white;
+}
+.principal-img{
+    position: absolute;
+    display: grid;
+    height: 80%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 5px;
+}
+.principal-texto{
+    text-align: center;
+    z-index: 10;
+    font-size: 5em;
+    width: 50%;
+}
+.principal-texto h3{
+    font-size: .5em;
+    text-align: center;
+}
+div img{
+    border-radius: 300px;
+    width: 5em;
+    height: 5em;
+    filter: grayscale();
+    transition: all .5s ease-in-out;
+}
+div img:hover{
+    filter: none;
+}
+.img.uno{ 
+    background-size: contain;
+    opacity: .5;
+    grid-row:5;
+    grid-column: 2;
+}
+.img.dos{
+    
+    filter: grayscale();
+    transition: all;
+    grid-row:5;
+}
+.img.dos:hover{
+    transition: filter 1s ease-in-out;
+    filter: none;
+    
+}
+.img.tres{
+    background-size: contain;
+    filter: grayscale();
+    transition: all;
+    grid-row:5;
+}
+.img.tres:hover{
+    transition: all 1s ease-in-out;
+    filter: none;
+    grid-row:5;
+}
+.img.cuatro{
+    grid-row:5;
+}
+.img.cinco{
+    grid-row:5;
+}
+.img.seis{
+    grid-row:5;
+}
+.img.siete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    grid-column:8;
+    grid-row:2;
+}
+.img.siete img {
+    width: 20vw;
+    height: 20vw;
+}
+.img.ocho{
+    grid-column: 9;
+    grid-row:2;
+}
+.img.ocho img{
+    width: 10vw;
+    height: 10vw;
+}
+.img.nueve{
+    grid-column: 10/10;
+    grid-row:1;
+}
+.img.nueve img{
+    width: 10vw;
+    height: 10vw;
+}
+.img.diez{
+    grid-column:10;
+    grid-row:4;
+}
+.img.diez img{
+    width: 10vw;
+    height: 10vw;
+}
+.img.once{
+    grid-column:9;
+    grid-row:5;
+}
+.img.once img{
+    width: 10vw;
+    height: 10vw;
+}
+.sobre-mi{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.sobre-mi-img1{
+    height: 300px;
+    width: 300px;
+    background-image: url("img/WhatsApp\ Image\ 2025-06-09\ at\ 22.09.28.jpeg");
+}
+
+.sobre-mi-texto{
+    width: 500px;
+}
