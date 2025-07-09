@@ -194,10 +194,8 @@ div img:hover{
 {
     position: relative;
     grid-area:1/1/4/4;
-    background-image: url("/img/peonia.jpeg");
+    background-image: url("img/peonia.jpeg");
     background-size: cover;
-
-    
 }
 .flor{
     position: relative;
