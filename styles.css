@@ -27,13 +27,11 @@ body {
     background-color: black;
     background:linear-gradient(45deg,black,rgb(104, 6, 6));
     color: white;
-    border: 1px solid peru;
 }
 .principal-img{
     position: absolute;
     top: 0;
     display: grid;
-    border: 1px solid aquamarine;
     height: 100%;
     grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: minmax(10px, 150px);
